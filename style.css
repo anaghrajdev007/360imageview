@@ -26,11 +26,24 @@
     background-color: #04AA6D;
     color: white;
   }
-  .logo{
+  /* .logo{
     height: 90px;
-    width: 140px;
+    width: 100px;
     padding-left: 30px;
     cursor: pointer;
  
   }
-  
+   */
+   .logo {
+    height: 60px; /* Adjust the height to fit within the navigation bar */
+    width: auto; /* Maintain the aspect ratio of the logo */
+    padding-left: 20px; /* Adjust padding for alignment */
+    cursor: pointer;
+    vertical-align: middle; /* Align logo vertically with the navigation items */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    margin-top: 5px; /* Optional: Adjust top margin for better vertical alignment */
+}
+
+.topnav .logo:hover {
+    transform: scale(1.05); /* Slightly enlarge logo on hover for interactive effect */
+}
