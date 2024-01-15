@@ -35,15 +35,15 @@
   }
    */
    .logo {
-    height: 60px; /* Adjust the height to fit within the navigation bar */
-    width: auto; /* Maintain the aspect ratio of the logo */
-    padding-left: 20px; /* Adjust padding for alignment */
+    height: 60px; 
+    width: auto;
+    padding-left: 20px; 
     cursor: pointer;
-    vertical-align: middle; /* Align logo vertically with the navigation items */
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
-    margin-top: 5px; /* Optional: Adjust top margin for better vertical alignment */
+    vertical-align: middle; 
+    transition: transform 0.3s ease; 
+    margin-top: 5px; 
 }
 
 .topnav .logo:hover {
-    transform: scale(1.05); /* Slightly enlarge logo on hover for interactive effect */
+    transform: scale(1.05); 
 }
